@@ -39,23 +39,5 @@ function encodeLine(str) {
 
   return result.join('');
 }
-// const tmp = new Map();
-// const result = [];
-
-// for (let i = 0; i < str.length; i++) {
-//   if (!tmp.has(str[i])) {
-//     tmp.set(str[i], 0);
-//   }
-//   tmp.set(str[i], tmp.get(str[i]) + 1);
-// }
-
-// tmp.forEach((value, key) => {
-//   if (value > 1) {
-//     result.push(`${value}${key}`);
-//   } if (value === 1) {
-//     result.push(key);
-//   }
-// });
-// return result.join('');
 
 module.exports = encodeLine;
